@@ -1,7 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
 header{
     text-align: center;
-    border: solid 2px black;
-    border-radius: 10px;
     max-width: 600px;
     padding: 20px;
     margin: 20px auto;
@@ -19,7 +22,16 @@ header{
     padding-top: 30px;
 }
 
-.contenedor{
+.contenedor1{
+    background: linear-gradient(to left, #0033A0, #1C4966);
+   
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contenedor2{
     display: flex;
     align-items: center;
     text-align: center;
@@ -43,8 +55,23 @@ h1 span.boca, span.juniors{
     font-size: 60px;
 }
 
+.azul{
+    color: yellow;
+    border-radius: 100%;
+}
+
+.amarillo{
+    color: blue;
+    border-radius: 100%;
+}
+
+a{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
 nav ul{
-    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -52,6 +79,54 @@ nav ul{
 nav li{
     display: inline-block;
     margin-right: 10px;
-    font-size: 25px;
 }
 
+.redes , .izquierda{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+
+.redes, .derecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.red-social-arriba{
+    
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 70%;
+    text-decoration: none;
+    color: #000;
+}
+
+.red-social-abajo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 70%;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.red-social-abajo img, .red-social-arriba img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.red-social-arriba:hover, .red-social-abajo:hover{
+    background-color: #f7d770;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    transform: scale(1.1);
+    
+}
