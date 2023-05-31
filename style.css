@@ -2,25 +2,45 @@ header{
     text-align: center;
     border: solid 2px black;
     border-radius: 10px;
-    max-width: 800px;
+    max-width: 600px;
     padding: 20px;
-    margin: 20px;
+    margin: 20px auto;
 }
 
-.escudo{
-    width: 100px;
+.escudo1{
+    max-height: 100px;
+    padding-right: 40px;
+    padding-top: 30px;
 }
 
+.escudo2{
+    max-height: 100px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
 
 .contenedor{
     display: flex;
     align-items: center;
+    text-align: center;
     justify-content: center;
-    margin-bottom: 20px;
 }
 
 h1{
     margin: 0 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 span.club, span.boca{
+    color: blue;
+}
+
+h1 span.atletico, span.juniors{
+    color: #f7d770;
+}
+
+h1 span.boca, span.juniors{
+    font-size: 60px;
 }
 
 nav ul{
@@ -32,5 +52,6 @@ nav ul{
 nav li{
     display: inline-block;
     margin-right: 10px;
+    font-size: 25px;
 }
 
