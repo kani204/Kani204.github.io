@@ -176,3 +176,83 @@ nav li{
     font-size: 30px;
 
 }
+
+.escudo3{
+    width: 100px;
+}
+
+footer{
+    background: linear-gradient(to right, #0033A0, #1C4966);
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: #fff;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-izq{
+    display: flex;
+    align-items: center;
+}
+
+.footer-izq .logo{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footer-izq .logo img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-izq .logo span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-izq .contacto a{
+    display: flex;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-der{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+    flex-grow: 1;
+    
+}
+
+.sponsors{
+    flex-grow: 1;
+    text-align: center;
+}
+
+.sponsor-titulo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sponsors-cat{
+    margin-bottom: 10px;
+}
+
+.sponsors-cat h4{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.sponsors-cat img{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
