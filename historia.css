@@ -1,0 +1,221 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(180, 178, 178);
+}
+
+header{
+    text-align: center;
+    max-width: 600px;
+    padding: 20px;
+    margin: 20px auto;
+}
+
+.escudo1{
+    max-height: 100px;
+    padding-right: 40px;
+    padding-top: 30px;
+}
+
+.escudo2{
+    max-height: 100px;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.contenedor1{
+    background: linear-gradient(to left, #0033A0, #1C4966);
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.contenedor2{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.contenedor3{
+    width: 700px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.contenedor4{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    margin: 0 10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+h1 span.club, span.boca{
+    color: blue;
+}
+
+h1 span.atletico, span.juniors{
+    color: #f7d770;
+}
+
+h1 span.boca, span.juniors{
+    font-size: 60px;
+}
+
+.azul{
+    color: yellow;
+    border-radius: 100%;
+}
+
+.amarillo{
+    color: blue;
+    border-radius: 100%;
+}
+
+a{
+    font-size: 30px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+nav ul{
+    padding: 0;
+    margin: 0;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.redes , .izquierda{
+    display: flex;
+    flex-direction: column;
+    margin-left: 15%;
+}
+
+
+.redes, .derecha{
+    display: flex;
+    flex-direction: column;
+    margin-right: 15%;
+}
+
+.red-social-arriba{
+    
+    background-color: #fff;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-bottom: 70%;
+    text-decoration: none;
+    color: #000;
+}
+
+.red-social-abajo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    margin-top: 70%;
+    text-decoration: none;
+    color: #000;
+}
+
+
+.red-social-abajo img, .red-social-arriba img {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.red-social-arriba:hover, .red-social-abajo:hover{
+    background-color: #f7d770;
+    color: #fff;
+    width: 65px;
+    height: 65px;
+    transform: scale(1.1);
+    
+}
+
+.escudo3{
+    width: 100px;
+}
+
+footer{
+    background: linear-gradient(to right, #0033A0, #1C4966);
+    display: flex;
+    justify-content: space-between;
+    padding:22px;
+    color: #fff;
+    
+}
+
+.footer-izq{
+    display: flex;
+    align-items: center;
+}
+
+.footer-izq .logo{
+    display: flex;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.footer-izq .logo img{
+    width: 30px;
+    margin-right: 10px;
+}
+
+.footer-izq .logo span{
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer-izq .contacto a{
+    display: flex;
+    margin-right: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-der{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.sponsors{
+    text-align: center;
+}
+
+.sponsor-titulo{
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.sponsors-cat{
+    margin-bottom: 10px;
+}
+
+.sponsors-cat h4{
+    margin-bottom: 5px;
+    font-size: 25px;
+}
+
+.sponsors-cat img{
+    width: 100px;
+    height: auto;
+    margin-right: 10px;
+}
