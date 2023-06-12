@@ -194,9 +194,10 @@ footer{
     background: linear-gradient(to right, #0033A0, #1C4966);
     display: flex;
     justify-content: space-between;
-    padding:22px;
     color: #fff;
-    
+    bottom: 0;
+    position: fixed;
+    width: 100%;
 }
 
 .footer-izq{
