@@ -145,15 +145,19 @@ nav li{
     
 }
 
-.tabla{
+
+
+.info{
     display: flex;
     justify-content: right;
     text-align: center;
     margin: 50px;
-    padding-left: 60%;
+    padding-left: 50%;
 }
 
-
+.contenedor{
+    display: flex;
+}
 
 .escudo3{
     width: 100px;
