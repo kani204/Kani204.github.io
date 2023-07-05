@@ -147,11 +147,18 @@ nav li{
 
 /*inicio*/
 
+.tabla-info{
+    display: flex;
+    padding-bottom: 50%;
+}
+
+
 .info {
     display: flex;
     justify-content: flex-end;
     text-align: center;
     margin: 50px;
+    width: 500px;
 }
 
 tbody {
@@ -182,7 +189,7 @@ tbody {
 }
 
 .historia p {
-    font-size: 22px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     text-align: justify;
@@ -198,24 +205,65 @@ table {
 
 th,
 td {
-    padding: 10px;
+    padding: 25px;
     border-bottom: 1px solid #1C4966;
-    font-size: 20px;
+    font-size: 25px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 th.titulo_principal {
     background: linear-gradient(to top, #0033A0, #1C4966);
     color: #f7d770;
-    font-size: 30px;
+    font-size: 40px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .escudo4 {
-    width: 100px;
+    width: 150px;
     height: auto;
 }
 
+.goleadores table,
+.torneos table {
+    width: 60%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.goleadores th,
+.goleadores td, 
+.torneos th,
+.torneos td{
+    padding: 10px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+    font-size: 30px;
+}
+
+.goleadores th,
+.torneos th {
+    background: linear-gradient(to top, #0033A0, #1C4966);
+    color: #f7d770;
+    font-size: 35px;
+}
+
+.goleadores table td:first-child,
+.torneos table td:first-child{
+    font-weight: bold;
+}
+
+.goleadores table tr:nth-child(even),
+.torneos table tr:nth-child(even)  {
+    background-color: #f2f2f2;
+}
+
+h3{
+    font-size: 35px;
+    margin-left: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
 
 /*final*/
 
